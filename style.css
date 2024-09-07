@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0 20px 30px 0;
+    line-height: 1.4;
+    background-color: #121212;
+    color: #f0f0f0;
+    margin: 0;
+}
+
+
+/* Flex container with a vibrant dark aesthetic */
+.flex-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+    background-color: #1c1c1c; /* Deep dark background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Flex items with appealing color accents */
+.flex-item {
+    background: #673ab7; /* Vibrant deep purple */
+    border: 2px solid #bb86fc; /* Soft lavender border */
+    width: 50px;
+    margin: 0 10px;
+    transition: 0.3s all ease;
+    border-radius: 5px;
+}
+
+/* Hover effect to enhance interactivity */
+.flex-item:hover {
+    background: #bb86fc; /* Lavender on hover */
+    border: 2px solid #3700b3; /* Darker purple border on hover */
+    width: 60px;
+}
+
+/* Grid layout with a modern dark theme */
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 20px;
+    background-color: #181818; /* Darker background for the grid */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Input area with a rich dark theme */
+#input {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: #2e2e2e; /* Rich dark grey background */
+    border-radius: 5px;
+    border: 2px solid #03dac6; /* Teal border */
+    color: #f0f0f0;
+}
+
+/* Input focus state with more vivid colors */
+#input input:focus {
+    border: 2px solid #03dac6; /* Teal border on focus */
+    background-color: #3e3e3e; /* Slightly lighter background on focus */
+    color: #f0f0f0;
+    outline: none;
+}
+
+/* General link styling */
+a {
+    color: #03dac6; /* Teal link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bb86fc; /* Lavender link on hover */
+    text-decoration: underline;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: khaki;
+}
